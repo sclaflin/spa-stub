@@ -1,0 +1,19 @@
+{
+  "name": "spa-stub",
+  "source": "src/index.html",
+  "browserslist": "",
+  "version": "0.0.0",
+  "description": "Minimal SPA development environment.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "parcel",
+    "build": "rm -rf dist && parcel build",
+    "buildImage": "sudo docker build -f Dockerfile.prod -t my-spa ."
+  },
+  "author": "Sean Claflin",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.0.1",
+    "eslint": "^8.5.0"
+  }
+}
